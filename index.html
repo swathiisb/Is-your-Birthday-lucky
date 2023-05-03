@@ -5,20 +5,58 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
     <title>Is Your Birthday Lucky</title>
 </head>
 
 <body>
-    <div id="head-name">
+    <div class="header">
+
+
         <h1>Is Your Birthday Lucky</h1>
+
+
+        <div class="container">
+
+            <div class="privacy-policy">
+                Privacy Notice -We Respect your privacy thus we are not storing your data
+                <button id="privacy-button">X</button>
+            </div>
+            <label for="date-of-birth">Date of Birth</label>
+            <input id="date-of-birth" type="date" name="dateofbirth">
+
+            <label for="lucky-number">Lucky Number</label>
+            <input type="number" id="lucky-number" name="number">
+
+            <button id="check-number">Check number</button>
+            <button onclick={location.reload()}>Reset</button>
+
+            <div class="output-box"> </div>
+        </div>
     </div>
-    <div id="container">
-        <label for="date-of-birth">Date o Birth</label>
-        <input id="date-of-birth" type="date">
-        <label for="lucky-number">Lucky Number</label>
-        <input type="number" id="lucky-number">
-        <button id="check-number">Check Number</button>
-    </div>
+    <!-- <footer>
+            <ul class="footer-list">
+
+                <li>
+                    <a href="https://github.com/swathiisb" class="links" target="_blank">
+                        <img src="image/github.svg" alt="github">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://www.linkedin.com/in/swathisb/" class="links" target="_blank">
+                        <img src="image/linkedin.svg" alt="linkedin">
+                    </a>
+                </li>
+
+                <li>
+                    <a href="https://twitter.com/swathi_sb" class="links" target="_blank">
+                        <img src="image/twitter.svg" alt="">
+                    </a>
+                </li>
+
+            </ul>
+        </footer> -->
     <script src="app.js"></script>
 </body>
 
