@@ -13,9 +13,9 @@ function compareValues(sum, luckyNumber){
     }else if (Number(luckyNumber < 0)) {
         return outputBox.innerText = "Please enter positive number"
     } else if (sum % luckyNumber === 0) {
-        outputBox.innerText = "Yeyy... Your birthday date is lucky 🎂🥳";
+        outputBox.innerText = " Your birthday date is lucky 🎂🥳";
     } else {
-        outputBox.innerText = "Ohh..! Your birthday date is not so lucky 🙁";
+        outputBox.innerText = " Your birthday date is not so lucky 🙁";
     }
 }
 
