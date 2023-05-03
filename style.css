@@ -1,0 +1,41 @@
+@import url('https://fonts.googleapis.com/css2?family=Advent+Pro:ital@1&family=Lato&family=Montserrat&display=swap');
+
+
+body {
+    margin: 0;
+    text-align: center;
+    font-family: 'Advent Pro', sans-serif;
+    
+}
+h1{
+    font-size:32px;
+    margin-top:30px;
+    font-family:inherit;  
+    text-align:center;
+  }
+
+  .header{
+        padding:15px;
+        display:flex;
+        flex-direction:row;
+        justify-content:center;
+        flex-wrap:wrap;
+  }
+.container{
+   height:70vh;
+   width:40%;
+   margin:15vh auto;
+    background:#fff;
+    border:2px solid #CB6074;
+    text-align:center;
+    cursor:pointer;
+}
+.container:hover {
+    box-shadow: 0 5px 10px 0 rgba(0,0,0,.1);
+}
+.header .privacy-policy{
+    box-shadow: rgb(221 192 192) 2px 2px 8px 3px;
+    background: rgb(215, 140, 199);
+    color: white;
+    padding: 5px;
+}
