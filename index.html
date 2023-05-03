@@ -14,50 +14,56 @@
         <div class="container">
             <div class="privacy-container">
                 <p class="privacy-policy">
-                    <strong>Privacy Notice</strong>  - We are not storing your data
+                    <strong>Privacy Notice</strong> - We are not storing your data
                     <button id="privacy-button">X</button>
                 </p>
             </div>
-        </div>
-        <h1>Is Your Birthday Lucky</h1>
+            <h1>Is Your Birthday Lucky</h1>
 
+            <div class="user-inputs">
+                <label for="date-of-birth">Date of Birth</label>
+                <input id="date-of-birth" type="date" name="dateofbirth">
 
-        
-            <label for="date-of-birth">Date of Birth</label>
-            <input id="date-of-birth" type="date" name="dateofbirth">
+                <label for="lucky-number">Lucky Number</label>
+                <input type="number" id="lucky-number" name="number">
+                <div class="action-buttons">
+                    <button id="check-number">Check number</button>
 
-            <label for="lucky-number">Lucky Number</label>
-            <input type="number" id="lucky-number" name="number">
-
-            <button id="check-number">Check number</button>
-            <button onclick={location.reload()}>Reset</button>
-
+                </div>
+            </div>
             <div class="output-box"> </div>
         </div>
     </div>
-    <!-- <footer>
-            <ul class="footer-list">
 
-                <li>
-                    <a href="https://github.com/swathiisb" class="links" target="_blank">
-                        <img src="image/github.svg" alt="github">
-                    </a>
-                </li>
+    <footer>
+        <div class="social-box">
+            <div class="social">
+                <p class="social-title">Connect with me</p>
+                <ul class="list-unordered inline-list">
 
-                <li>
-                    <a href="https://www.linkedin.com/in/swathisb/" class="links" target="_blank">
-                        <img src="image/linkedin.svg" alt="linkedin">
-                    </a>
-                </li>
+                    <li>
+                        <a href="https://github.com/swathiisb" class="links" target="_blank">
+                            <img src="image/github.svg" alt="github">
+                        </a>
+                    </li>
 
-                <li>
-                    <a href="https://twitter.com/swathi_sb" class="links" target="_blank">
-                        <img src="image/twitter.svg" alt="">
-                    </a>
-                </li>
+                    <li>
+                        <a href="https://www.linkedin.com/in/swathisb/" class="links" target="_blank">
+                            <img src="image/linkedin.svg" alt="linkedin">
+                        </a>
+                    </li>
 
-            </ul>
-        </footer> -->
+                    <li>
+                        <a href="https://twitter.com/swathi_sb" class="links" target="_blank">
+                            <img src="image/twitter.svg" alt="">
+                        </a>
+                    </li>
+
+                </ul>
+            </div>
+        </div>
+    </footer>
+
     <script src="app.js"></script>
 </body>
 
