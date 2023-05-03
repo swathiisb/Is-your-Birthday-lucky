@@ -1,16 +1,16 @@
 const dateOfBirth = document.querySelector("#date-of-birth");
 const luckyNumber = document.querySelector("#lucky-number");
 const checkNumberButton = document.querySelector("#check-number");
-const outputBox = document.querySelector("#output-box");
+const outputBox = document.querySelector(".output-box");
 const privacyPolicyBtn = document.querySelector("#privacy-button")
 const privacyNote = document.querySelector(".privacy-policy");
 
 
-function compareValues(sum, luckyNumber){
+function compareValues(sum, luckyNumber) {
 
-    if (dateOfBirth.value  === "" || luckyNumber === "") {
+    if (dateOfBirth.value === "" || luckyNumber === "") {
         return outputBox.innerText = "Please enter both the details"
-    }else if (Number(luckyNumber < 0)) {
+    } else if (Number(luckyNumber < 0)) {
         return outputBox.innerText = "Please enter positive number"
     } else if (sum % luckyNumber === 0) {
         outputBox.innerText = " Your birthday date is lucky 🎂🥳";
