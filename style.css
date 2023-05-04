@@ -81,13 +81,13 @@ button {
     width: fit-content;
     padding: 5px;
     font-family: "Advent Pro", sans-serif;
-    letter-spacing: 0.8px;
+    letter-spacing: 0.5px;
     font-weight: bold;
     cursor: pointer;
 }
 
-#check-number {
-    width: 60%;
+#check-number , #reset {
+    width: 120px;
     background-color: black;
     color: var(--white);
     border: 1px solid black;
@@ -101,7 +101,7 @@ button {
 
 }
 
-#check-number:hover {
+#check-number:hover , #reset:hover {
     background-color: var(--white);
     border: 1px solid black;
     color: black;
@@ -116,7 +116,7 @@ strong {
     letter-spacing: 0.5px;
 }
 
-#output-box {
+.output-box {
     font-weight: bolder;
     letter-spacing: 2px;
     text-align: center;
@@ -152,14 +152,7 @@ footer {
     width: 100%;
 }
 
-.social-box {
-    padding: 10px;
-    margin: 0px;
-    width: 1400spx;
-    height: 80px;
-    background: #ffffff;
-    text-align: center;
-}
+
 
 .social-title {
     font-size: larger;
@@ -178,11 +171,14 @@ footer {
     margin: 1rem;
 }
 
+
 a,
 img,
 li {
     display: inline;
     margin: 0.25rem;
+
+
 }
 
 img {
